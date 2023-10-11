@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    width: 900px;
+    width: 700px;
     /* background: red; */
     padding: 4px;
     margin-left: auto;
@@ -24,11 +24,25 @@ body{
     background: hsl(0, 0%, 100%);
     border: solid 1px transparent;
     border-radius: 6px;
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     margin-bottom: 15px;
+}
+
+
+
+.card-reply{
+    padding: 20px;
+    padding-bottom: 25px;
+    background: hsl(0, 0%, 100%);
+    border: solid 1px transparent;
+    border-radius: 6px;
+    width: 90%;
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: auto;
 }
 
 .score-comment{
@@ -119,4 +133,42 @@ body{
     line-height: 28px;
     color: hsl(211, 10%, 45%);
     padding-right: 20px;
+}
+
+.input-comment-group{
+    padding: 20px;
+    padding-bottom: 25px;
+    background: hsl(0, 0%, 100%);
+    border: solid 1px transparent;
+    border-radius: 6px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 15px;
+    align-items: start;
+}
+
+.avatar-current-user{
+    width: 40px;
+    margin-right: 15px;
+}
+
+.input-comment{
+    border-color: hsl(223, 19%, 93%);
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    color: hsl(211, 10%, 45%);
+    margin-right: 15px;
+}
+
+.send-btn{
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border: solid 1px transparent;
+    border-radius: 6px;
+    background: hsl(238, 40%, 52%);
+    color:hsl(0, 0%, 100%);
 }
