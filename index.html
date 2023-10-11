@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
   
   <title>Frontend Mentor | Interactive comments section</title>
 
@@ -17,10 +19,39 @@
 <body>
 
   <!-- Pull dynamic content from the data.json file -->
+
+  <div class="container">
+    <div class="card-comment">
+      <div class="score-comment">
+        <img src="/images/icon-plus.svg" alt="plus icon" class="plus-icon">
+        <p class="score">12</p>
+        <img src="/images/icon-minus.svg" alt="minus icon" class="minus-icon">
+      </div>
+
+      <div class="text-comment">
+
+        <div class="comment-info">
+          <img src="/images/avatars/image-amyrobson.png" alt="avatar image" class="avatar">
+          <p class="user-name">amyrobson</p>
+          <p class="published-date">1 month ago</p>
+          <div class="btn-reply">
+            <img src="/images/icon-reply.svg" alt="icon reply" class="reply-icon">
+            <p class="text-reply">Reply</p>
+          </div>
+        </div>
+    
+          <p class="comment-content">
+            Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.
+          </p>
+
+      </div>
+    </div>
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Darren Mibissa</a>.
   </div>
+  <script src="/app.js" type="module"></script>
 </body>
 </html>
